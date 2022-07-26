@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0625, y: 0.4357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6843416546906002579}
   m_RootOrder: 0
@@ -43,6 +44,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -72,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -7679691229697230091, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  m_Sprite: {fileID: -1053824450, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,13 +97,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b544fb82e3c674190cdaf77a870706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleSprite: {fileID: -7679691229697230091, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  idleSprite: {fileID: -1053824450, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   animationSprites:
-  - {fileID: -7679691229697230091, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: -4838763863378666313, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: 5742505401775786626, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: -2236306000557871359, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  animationTime: 0.16666667
+  - {fileID: -1053824450, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1566967919, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1202454143, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1650124224, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1268639362, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -939833822, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  animationTime: 0.1
   loop: 1
   idle: 1
 --- !u!1 &6843416545337485467
@@ -132,6 +136,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0625, y: 0.4357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6843416546906002579}
   m_RootOrder: 3
@@ -147,6 +152,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -176,7 +182,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 4105455241530701441, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  m_Sprite: {fileID: 522973411, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,13 +205,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b544fb82e3c674190cdaf77a870706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleSprite: {fileID: 4105455241530701441, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  idleSprite: {fileID: 522973411, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   animationSprites:
-  - {fileID: 4105455241530701441, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: 1227387053424607353, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: 4228603840019539244, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: -9177389288040520022, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  animationTime: 0.1666667
+  - {fileID: 522973411, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -262129947, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 1508829870, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 941516690, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 25675805, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -22024194, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  animationTime: 0.1
   loop: 1
   idle: 1
 --- !u!1 &6843416545347166458
@@ -236,6 +244,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0625, y: 0.4357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6843416546906002579}
   m_RootOrder: 4
@@ -251,6 +260,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -311,7 +321,7 @@ MonoBehaviour:
   - {fileID: 8242516718634736881, guid: a80aaea37ff2d7343b30abf626c280d0, type: 3}
   - {fileID: 7147424838813738485, guid: a80aaea37ff2d7343b30abf626c280d0, type: 3}
   - {fileID: 2880779463652772421, guid: a80aaea37ff2d7343b30abf626c280d0, type: 3}
-  animationTime: 0.1666667
+  animationTime: 0.1
   loop: 0
   idle: 0
 --- !u!1 &6843416545537139000
@@ -342,6 +352,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0625, y: 0.4357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6843416546906002579}
   m_RootOrder: 2
@@ -357,6 +368,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -386,7 +398,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1876993990684628349, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  m_Sprite: {fileID: 1212824094, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -409,13 +421,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b544fb82e3c674190cdaf77a870706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleSprite: {fileID: 1876993990684628349, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  idleSprite: {fileID: 1212824094, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   animationSprites:
-  - {fileID: 1876993990684628349, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: 7320275842084746454, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: 4794426086629081376, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: -7472294743960569232, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  animationTime: 0.1666667
+  - {fileID: 1212824094, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1463181255, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 403653193, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 1630776913, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1256207397, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 479678236, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  animationTime: 0.1
   loop: 1
   idle: 1
 --- !u!1 &6843416545899899541
@@ -446,6 +460,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0625, y: 0.4357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6843416546906002579}
   m_RootOrder: 1
@@ -461,6 +476,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -490,7 +506,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 457474356617978424, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  m_Sprite: {fileID: 1181951015, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -513,13 +529,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b544fb82e3c674190cdaf77a870706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleSprite: {fileID: 457474356617978424, guid: b2168e99ba834b24595417d990e34af1, type: 3}
+  idleSprite: {fileID: 1181951015, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
   animationSprites:
-  - {fileID: 457474356617978424, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: -1955984481447874758, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: -2311726692851788914, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  - {fileID: 530038992663894971, guid: b2168e99ba834b24595417d990e34af1, type: 3}
-  animationTime: 0.1666667
+  - {fileID: 1181951015, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 1691207224, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -1757628280, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 1182092820, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: 1080607394, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  - {fileID: -482447973, guid: 2130f64dfa22b4606908b427016f43dd, type: 3}
+  animationTime: 0.1
   loop: 1
   idle: 1
 --- !u!1 &6843416546906002575
@@ -552,6 +570,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6843416545283374908}
   - {fileID: 6843416545899899544}
@@ -573,7 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c35df84a9413445bba986686418ead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   inputUp: 119
   inputDown: 115
   inputLeft: 97
@@ -641,6 +660,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.06, y: -0.18}
   serializedVersion: 2
-  m_Radius: 0.47471642
+  m_Radius: 0.4
