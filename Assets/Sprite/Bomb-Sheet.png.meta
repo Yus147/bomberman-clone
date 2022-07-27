@@ -1,28 +1,7 @@
 fileFormatVersion: 2
-guid: 1445bd33625b578499b898e42d687827
+guid: 1d1b8aea0e7524c36af5d9044931f326
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 440004201269631737
-    second: BrickDestroy_0
-  - first:
-      213: 6428096427953393541
-    second: BrickDestroy_1
-  - first:
-      213: 8603011222089355523
-    second: BrickDestroy_2
-  - first:
-      213: 2274631966701665123
-    second: BrickDestroy_3
-  - first:
-      213: -5598041726246172800
-    second: BrickDestroy_4
-  - first:
-      213: -5070355926835817348
-    second: BrickDestroy_5
-  - first:
-      213: -5028786312047504514
-    second: BrickDestroy_6
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,7 +81,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,19 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BrickDestroy_0
+      name: Bomb-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa1b546d753b1600800000000000000
-      internalID: 440004201269631737
+      spriteID: acc409bbbb467415fb3c4a07d7f2b94c
+      internalID: 1558058415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_1
+      name: Bomb-Sheet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -172,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58f8e1ac4af253950800000000000000
-      internalID: 6428096427953393541
+      spriteID: 24fe30990d5094d229fb09c9a8b905dc
+      internalID: -612346918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_2
+      name: Bomb-Sheet_2
       rect:
         serializedVersion: 2
         x: 32
@@ -193,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 301d5533029046770800000000000000
-      internalID: 8603011222089355523
+      spriteID: 9d2a7f69f915a4a0cb7822dd0ee17d05
+      internalID: -222449674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_3
+      name: Bomb-Sheet_3
       rect:
         serializedVersion: 2
         x: 48
@@ -214,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b3002e8bd119f10800000000000000
-      internalID: 2274631966701665123
+      spriteID: 91884f5f838f0488a914b1aafe05a63e
+      internalID: 1302731144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_4
+      name: Bomb-Sheet_4
       rect:
         serializedVersion: 2
         x: 64
@@ -235,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 087484da5b2cf42b0800000000000000
-      internalID: -5598041726246172800
+      spriteID: a7f9c4b1c8f8e4716a2c34fd63995daa
+      internalID: 377415222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickDestroy_5
+      name: Bomb-Sheet_5
       rect:
         serializedVersion: 2
         x: 80
@@ -256,29 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c749720062a72a9b0800000000000000
-      internalID: -5070355926835817348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BrickDestroy_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e73df0b2e79263ab0800000000000000
-      internalID: -5028786312047504514
+      spriteID: 279871f8e12da4e61b30599f0a66bd9e
+      internalID: 213689297
       vertices: []
       indices: 
       edges: []
@@ -294,13 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BrickDestroy_4: -5598041726246172800
-      BrickDestroy_5: -5070355926835817348
-      BrickDestroy_6: -5028786312047504514
-      BrickDestroy_1: 6428096427953393541
-      BrickDestroy_2: 8603011222089355523
-      BrickDestroy_3: 2274631966701665123
-      BrickDestroy_0: 440004201269631737
+      Bomb-Sheet_3: 1302731144
+      Bomb-Sheet_0: 1558058415
+      Bomb-Sheet_2: -222449674
+      Bomb-Sheet_4: 377415222
+      Bomb-Sheet_1: -612346918
+      Bomb-Sheet_5: 213689297
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
