@@ -625,7 +625,7 @@ MonoBehaviour:
   explosionDuration: 1
   explosionRadius: 1
   destructibleTiles: {fileID: 0}
-  destructiblePrefab: {fileID: 1951544235594275243, guid: 67a6366b0c4e5374db982707b2d31bb4, type: 3}
+  destructiblePrefab: {fileID: 1951544235594275243, guid: 8cc904f933fbc694fb8dc41d67eb6e8f, type: 3}
 --- !u!50 &6843416546906002573
 Rigidbody2D:
   serializedVersion: 4
