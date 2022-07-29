@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyControllerUpDown : MonoBehaviour
 {
     public new Rigidbody2D rigidbody { get; private set; }
-    private Vector2 direction = Vector2.right;
+    private Vector2 direction = Vector2.up;
     public float speed = 5f;
 
     public AnimationSpriteRenderer spriteRendererUp;
@@ -34,12 +34,12 @@ public class EnemyControllerUpDown : MonoBehaviour
     }
     private bool IsFacingUp()
     {
-        return transform.localScale.y > Mathf.Epsilon;
+        return rigidbody.velocity.y > Mathf.Epsilon;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {   
-        transform.localScale = new Vector2((Mathf.Sign(rigidbody.velocity.x)), -transform.localScale.y);
+    {
+        rigidbody.velocity = new Vector2((Mathf.Sign(rigidbody.velocity.x)), -rigidbody.velocity.y);
     }
         
     private void FixedUpdate()

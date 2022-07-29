@@ -34,12 +34,12 @@ public class EnemyControllerRightLeft : MonoBehaviour
     }
     private bool IsFacingRight()
     {
-        return transform.localScale.x > Mathf.Epsilon;
+        return rigidbody.velocity.x > Mathf.Epsilon;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {   
-        transform.localScale = new Vector2(-(Mathf.Sign(rigidbody.velocity.x)), transform.localScale.y);
+    {
+        rigidbody.velocity = new Vector2(-(Mathf.Sign(rigidbody.velocity.x)), rigidbody.velocity.y);
     }
         
     private void FixedUpdate()

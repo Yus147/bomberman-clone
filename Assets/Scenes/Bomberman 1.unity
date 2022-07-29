@@ -3569,7 +3569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3424138769763247861, guid: 73b13e58711575540b1999e0739f390b, type: 3}
       propertyPath: inputKey
-      value: 257
+      value: 305
       objectReference: {fileID: 0}
     - target: {fileID: 3424138769763247861, guid: 73b13e58711575540b1999e0739f390b, type: 3}
       propertyPath: destructibleTiles
