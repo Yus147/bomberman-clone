@@ -158,7 +158,7 @@ MonoBehaviour:
   speed: 5
   spriteRendererLeft: {fileID: 3997213665461680744}
   spriteRendererRight: {fileID: 7234272021844129691}
-  spriteRendererDeath: {fileID: 0}
+  spriteRendererDeath: {fileID: 7509442660078468955}
 --- !u!50 &3424138769763247860
 Rigidbody2D:
   serializedVersion: 4

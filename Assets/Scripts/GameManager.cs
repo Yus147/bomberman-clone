@@ -7,7 +7,38 @@ public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
 
-    public void CheckWinState()
+    public GameObject[] enemies;
+
+
+    // bool gameEnded = false;
+
+    public float restartDelay = 1f; 
+
+    public void LevelCompleted() 
+    {
+        Debug.Log("Level Completed");
+    }
+
+    public void CheckEnemysCount() 
+    {
+        int aliveCount = 0;
+
+        foreach (GameObject enemy in enemies)
+        {
+            if(enemy.activeSelf)
+            {
+                aliveCount++;
+            }
+        }
+
+        if (aliveCount == 0)
+        {
+            Debug.Log("Level Completed");
+            Invoke(nameof(NextLevel), 3f);
+        }
+    }
+
+    public void CheckPlayerState()
     {
         int aliveCount = 0;
 
@@ -21,12 +52,18 @@ public class GameManager : MonoBehaviour
 
         if(aliveCount <= 1)
         {
-            Invoke(nameof(NewRound), 3f);
+            Debug.Log("Game Over");
+            Invoke(nameof(Restart), 3f);
         }
     }
 
-    public void NewRound()
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -61,10 +61,16 @@ public class EnemyControllerRightLeft : MonoBehaviour
         activeSpriteRenderer.idle = direction == Vector2.zero;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
+            Death();
+        } 
+    }
+
     private void Death()
     {
         enabled = false;
-        GetComponent<BombController>().enabled = false;
 
         spriteRendererLeft.enabled = false;
         spriteRendererRight.enabled = false;
@@ -76,6 +82,6 @@ public class EnemyControllerRightLeft : MonoBehaviour
     private void OnDeathEnded()
     {
         gameObject.SetActive(false);
-        FindObjectOfType<GameManager>().CheckWinState();
+        FindObjectOfType<GameManager>().CheckEnemysCount();
     }
 }

@@ -103,6 +103,6 @@ public class MovementCotroller : MonoBehaviour
     private void OnDeathEnded()
     {
         gameObject.SetActive(false);
-        FindObjectOfType<GameManager>().CheckWinState();
+        FindObjectOfType<GameManager>().CheckPlayerState();
     }
 }
