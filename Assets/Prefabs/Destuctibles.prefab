@@ -151,6 +151,6 @@ MonoBehaviour:
   - {fileID: 575666245, guid: 3c4dc7c3831284d51b08d2f351a982fe, type: 3}
   - {fileID: -613039354, guid: 3c4dc7c3831284d51b08d2f351a982fe, type: 3}
   - {fileID: -577428345, guid: 3c4dc7c3831284d51b08d2f351a982fe, type: 3}
-  animationTime: 0.16666667
+  animationTime: 0.1
   loop: 0
   idle: 0
